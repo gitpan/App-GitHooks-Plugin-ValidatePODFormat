@@ -17,6 +17,7 @@
       "build" : {
          "requires" : {
             "Capture::Tiny" : "0",
+            "Git::Repository" : "0",
             "Test::Exception" : "0",
             "Test::FailWarnings" : "0",
             "Test::Git" : "0",
@@ -40,7 +41,7 @@
    "provides" : {
       "App::GitHooks::Plugin::ValidatePODFormat" : {
          "file" : "lib/App/GitHooks/Plugin/ValidatePODFormat.pm",
-         "version" : "v1.0.0"
+         "version" : "v1.0.1"
       }
    },
    "release_status" : "stable",
@@ -56,5 +57,5 @@
          "url" : "https://github.com/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat"
       }
    },
-   "version" : "v1.0.0"
+   "version" : "v1.0.1"
 }
